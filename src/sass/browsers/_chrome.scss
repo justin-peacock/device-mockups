@@ -1,0 +1,14 @@
+.dm-browser {
+  @extend %dm-browser;
+
+  &[data-device='chrome'] {
+    & > .device {
+      background-image: url('#{$base-url}chrome.png');
+
+      & > .screen {
+        border: 1px solid #f3f2f3;
+        top: 12.4%;
+      }
+    }
+  }
+}

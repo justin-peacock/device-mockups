@@ -1,0 +1,33 @@
+.dm-device {
+  @extend %dm-device;
+
+  &[data-device='surface'] {
+    padding-bottom: 64.7584973%;
+
+    &[data-orientation='landscape'] {
+      padding-bottom: 64.7584973%;
+
+      & > .device {
+        background-image: url('#{$base-url}surface.png');
+      }
+
+      & > .device > .screen {
+        bottom: 14.9171271%;
+        left: 9.36195587%;
+        right: 9.36195587%;
+        top: 14.5488029%;
+      }
+    }
+
+    & > .device {
+      background-image: url('#{$base-url}surface.png');
+    }
+
+    & > .device > .screen {
+      bottom: 14.9171271%;
+      left: 9.36195587%;
+      right: 9.36195587%;
+      top: 14.5488029%;
+    }
+  }
+}

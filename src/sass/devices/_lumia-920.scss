@@ -1,0 +1,39 @@
+.dm-device {
+  @extend %dm-device;
+
+  &[data-device='lumia920'] {
+    padding-bottom: 172.796353%;
+
+    &[data-orientation='portrait'] {
+      padding-bottom: 172.796353%;
+    }
+
+    &[data-orientation='landscape'] {
+      padding-bottom: 56.3330381%;
+    }
+
+    & > .device,
+    &[data-orientation='portrait'] > .device {
+      background-image: url('#{$base-url}lumia920_port.png');
+    }
+
+    &[data-orientation='landscape'] > .device {
+      background-image: url('#{$base-url}lumia920_land.png');
+    }
+
+    & > .device > .screen,
+    &[data-orientation='portrait'] > .device > .screen {
+      bottom: 18.9973615%;
+      left: 13.5258359%;
+      right: 13.5258359%;
+      top: 10.6420405%;
+    }
+
+    &[data-orientation='landscape'] > .device > .screen {
+      bottom: 12.2641509%;
+      left: 10.5403012%;
+      right: 18.6005314%;
+      top: 12.2641509%;
+    }
+  }
+}

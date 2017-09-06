@@ -1,0 +1,20 @@
+{
+  "name": "mrdink/device-mockups",
+  "description": "Show your work in high resolution, responsive device mockups using only shortcodes.",
+  "type": "wordpress-plugin",
+  "homepage": "https://wordpress.org/plugins/device-mockups/",
+  "authors": [
+    {
+      "name": "Justin Peacock",
+      "email": "hello@byjust.in",
+      "homepage": "https://byjust.in"
+    }
+  ],
+  "require-dev": {
+    "wp-coding-standards/wpcs": "dev-develop"
+  },
+  "scripts": {
+    "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs",
+    "post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+  }
+}

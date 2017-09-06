@@ -1,0 +1,14 @@
+.dm-browser {
+  @extend %dm-browser;
+
+  &[data-device='firefox'] {
+    & > .device {
+      background-image: url('#{$base-url}firefox.png');
+
+      & > .screen {
+        border: 1px solid #f6f6f6;
+        top: 13.3%;
+      }
+    }
+  }
+}

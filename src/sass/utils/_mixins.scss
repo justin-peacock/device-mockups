@@ -1,0 +1,91 @@
+%dm-device {
+  margin-bottom: 20px;
+  padding-bottom: 61.775701%;
+  position: relative;
+  width: 100%;
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  & > .device {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+
+    & > {
+      .screen {
+        background-color: $screen-color;
+        bottom: 14.6747352%;
+        left: 13.364486%;
+        overflow: hidden;
+        position: absolute;
+        right: 13.364486%;
+        top: 11.0438729%;
+
+        .embed-youtube,
+        .jetpack-video-wrapper iframe,
+        iframe {
+          height: 100% !important;
+          width: 100% !important;
+        }
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+%dm-browser {
+  margin-bottom: 20px;
+  padding-bottom: 61.775701%;
+  position: relative;
+  width: 100%;
+
+  img {
+    border-right: 0 !important;
+    height: auto;
+    max-width: 100%;
+  }
+
+  & > .device {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+
+    & > {
+      .screen {
+        background-color: #fff;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 15.043873%;
+
+        .embed-youtube,
+        iframe {
+          height: 100% !important;
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

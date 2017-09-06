@@ -1,0 +1,22 @@
+{
+  "name": "device-mockups",
+  "version": "1.8.1",
+  "homepage": "https://wordpress.org/plugins/device-mockups/",
+  "description": "Show your work in high resolution, responsive device mockups using only shortcodes.",
+  "keywords": [
+    "mockups",
+    "html5",
+    "wordpress",
+    "shortcodes"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "^1.7.1"
+  }
+}

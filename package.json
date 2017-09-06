@@ -1,0 +1,33 @@
+{
+	"name": "device-mockups",
+	"title": "Device Mockups",
+	"description": "Show your work in high resolution, responsive device mockups using only shortcodes.",
+	"version": "1.8.1",
+	"homepage": "https://wordpress.org/plugins/device-mockups/",
+	"author": {
+		"name": "Justin Peacock",
+		"email": "hello@byjust.in",
+		"url": "https://byjust.in"
+	},
+	"dependencies": {
+		"autoprefixer": "latest",
+		"load-grunt-config": "latest",
+		"load-grunt-tasks": "latest",
+		"node-sass": "latest",
+		"time-grunt": "latest"
+	},
+	"devDependencies": {
+		"grunt": "latest",
+		"grunt-contrib-clean": "latest",
+		"grunt-contrib-concat": "latest",
+		"grunt-contrib-copy": "latest",
+		"grunt-contrib-jshint": "latest",
+		"grunt-cssbeautifier": "latest",
+		"grunt-image": "latest",
+		"grunt-phpcs": "latest",
+		"grunt-postcss": "latest",
+		"grunt-sass": "latest",
+		"grunt-wp-i18n": "latest",
+		"postcss-prettify": "latest"
+	}
+}

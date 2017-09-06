@@ -1,0 +1,18 @@
+.dm-device {
+  @extend %dm-device;
+
+  &[data-device='macbook'] {
+    padding-bottom: 61.775701%;
+
+    & > .device {
+      background-image: url('#{$base-url}macbook.png');
+
+      & > .screen {
+        bottom: 14.6747352%;
+        left: 13.364486%;
+        right: 13.364486%;
+        top: 11.0438729%;
+      }
+    }
+  }
+}

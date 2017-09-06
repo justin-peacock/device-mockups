@@ -1,0 +1,14 @@
+.dm-browser {
+  @extend %dm-browser;
+
+  &[data-device='safari'] {
+    & > .device {
+      background-image: url('#{$base-url}safari.png');
+
+      & > .screen {
+        border: 1px solid #eee;
+        top: 5.9%;
+      }
+    }
+  }
+}

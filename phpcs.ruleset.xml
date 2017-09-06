@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="Device Mockups">
+	<description>Sniffs for the coding standards of the Unified Post Types plugin</description>
+
+	<rule ref="WordPress-VIP">
+		<exclude name="WordPress.VIP.SuperGlobalInputUsage" />
+		<exclude name="WordPress.VIP.ValidatedSanitizedInput" />
+	</rule>
+</ruleset>
